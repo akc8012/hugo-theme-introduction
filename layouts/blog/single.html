@@ -1,7 +1,7 @@
 {{ define "title" }}
 {{ with .Site.GetPage "/blog" }}
 <h1 class="bold-title is-1">{{ .Site.Title }}</h1>
-<div class="subtitle is-3">{{ .Site.Params.Tagline }}</div>
+<div class="subtitle">{{ .Site.Params.Tagline }}</div>
 {{ end }}
 {{ end }}
 
